@@ -12,7 +12,11 @@ body {
 
   }
   
-  header {
+/* Estilo para o Header com a Logo */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to right, #6a11cb, #2575fc);
     color: white;
     width: 100%;
@@ -20,6 +24,13 @@ body {
     text-align: center;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   }
+  
+  .logo {
+    width: 40px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+    margin-right: 10px; /* Espaçamento entre a logo e o título */
+  }
+  
   
   main {
     display: flex;
