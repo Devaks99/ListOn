@@ -239,6 +239,40 @@ body {
   .delete-btn:hover {
     color: #d32f2f;
   }
+
+  /* Estilo para Checkbox de Conclusão de Tarefas */
+.task-checkbox {
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #6a11cb; /* Cor personalizada para o checkbox */
+  }
+  
+  /* Estilo para Tarefas Concluídas */
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+    opacity: 0.7;
+    transition: color 0.3s, opacity 0.3s;
+  }
+  
+  /* Efeito de Animação ao Marcar como Concluída */
+  .completed {
+    animation: taskCompletedFade 0.4s ease-in-out;
+  }
+  
+  @keyframes taskCompletedFade {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0.7;
+      transform: scale(0.98);
+    }
+  }
+  
   
   /* Telas pequenas (smartphones em modo retrato) */
 @media only screen and (max-width: 600px) {
@@ -301,6 +335,8 @@ body {
       gap: 10px;
     }
   }
+
+
   
   /* Telas médias (tablets) */
   @media only screen and (min-width: 601px) and (max-width: 1024px) {

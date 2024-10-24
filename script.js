@@ -165,35 +165,58 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   
-    // Função para adicionar uma tarefa manual à lista
-    function addManualTask(text) {
-      const taskItem = document.createElement('li');
+
+  // script.js - Ajuste para salvar apenas o estado de conclusão no localStorage
+
+// Função para adicionar uma tarefa manual
+function addManualTask(text, index = null) {
+    const taskItem = document.createElement('li');
   
-      // Cria elementos de tarefa manual
-      const taskLabel = document.createElement('span');
-      taskLabel.textContent = text;
-      taskLabel.classList.add('task-label');
+    // Cria elementos de tarefa manual
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.classList.add('task-checkbox');
+    checkbox.dataset.index = index !== null ? index : taskContainer.children.length; // Define o índice do checkbox
   
-      const deleteBtn = document.createElement('button');
-      deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>';
-      deleteBtn.classList.add('delete-btn');
+    const taskLabel = document.createElement('span');
+    taskLabel.textContent = text;
+    taskLabel.classList.add('task-label');
   
-      // Evento de completar tarefa manual
-      taskLabel.addEventListener('click', () => {
-        taskLabel.classList.toggle('completed');
-      });
-  
-      // Evento de remover tarefa manual
-      deleteBtn.addEventListener('click', () => {
-        taskItem.remove();
-        saveManualTasks(); // Salva no localStorage após remover
-      });
-  
-      // Adiciona elementos ao item da lista
-      taskItem.appendChild(taskLabel);
-      taskItem.appendChild(deleteBtn);
-      taskContainer.appendChild(taskItem);
+    // Carregar o estado de conclusão da tarefa do localStorage
+    const taskStatus = localStorage.getItem(`task-${checkbox.dataset.index}`);
+    if (taskStatus === 'completed') {
+      checkbox.checked = true;
+      taskLabel.classList.add('completed');
     }
+  
+    const deleteBtn = document.createElement('button');
+    deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>'; // Ícone de lixeira
+    deleteBtn.classList.add('delete-btn');
+  
+    // Evento de marcar tarefa como concluída diretamente pelo checkbox
+    checkbox.addEventListener('change', () => {
+      if (checkbox.checked) {
+        taskLabel.classList.add('completed');
+        localStorage.setItem(`task-${checkbox.dataset.index}`, 'completed');
+      } else {
+        taskLabel.classList.remove('completed');
+        localStorage.removeItem(`task-${checkbox.dataset.index}`);
+      }
+    });
+  
+    // Evento de remover tarefa manual
+    deleteBtn.addEventListener('click', () => {
+      taskItem.remove();
+      localStorage.removeItem(`task-${checkbox.dataset.index}`); // Remove o estado do localStorage
+    });
+  
+    // Adiciona elementos ao item da lista
+    taskItem.appendChild(checkbox);
+    taskItem.appendChild(taskLabel);
+    taskItem.appendChild(deleteBtn);
+    taskContainer.appendChild(taskItem);
+  }
+      
   
     // Adiciona evento ao calendário
     function addEventToCalendar(task, date) {
@@ -248,4 +271,10 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('calendarTasks', JSON.stringify(events));
     }
   });
-  
+
+
+
+
+
+
+
