@@ -240,16 +240,13 @@ body {
     color: #d32f2f;
   }
   
-  /* Media Queries para o Calendário */
-
-/* Telas pequenas (smartphones em modo retrato) */
+  /* Telas pequenas (smartphones em modo retrato) */
 @media only screen and (max-width: 600px) {
 
-    h1{
-        font-size: 24px;
-       
+    h1 {
+      font-size: 24px;
     }
-
+  
     .calendar {
       width: 100%;
       padding: 10px;
@@ -268,11 +265,17 @@ body {
   
     .fc-button {
       font-size: 12px; /* Reduzir o tamanho dos botões */
-      padding: 5px 10px;
+      padding: 8px 12px;
+      border-radius: 5px; /* Tornar os botões mais arredondados */
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      border: none;
+      margin-bottom: 5px;
+      transition: background-color 0.3s ease;
     }
-
-    .fc .fc-button{
-        
+  
+    .fc-button:hover {
+      background: linear-gradient(to right, #5a0db0, #1f6bdf); /* Cor mais escura ao passar o mouse */
     }
   
     .fc-daygrid-day-number {
@@ -282,6 +285,20 @@ body {
     .fc-event {
       font-size: 12px; /* Ajustar tamanho dos eventos */
       padding: 3px;
+    }
+  
+    /* Ajuste para exibir calendário de forma mais compacta em dispositivos móveis */
+    .fc .fc-button-group {
+      flex-wrap: wrap; /* Quebrar botões em linhas, se necessário */
+      gap: 5px; /* Espaço entre os botões */
+    }
+  
+    /* Ajustes adicionais para o calendário em telas pequenas */
+    .fc-header-toolbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
     }
   }
   
@@ -305,7 +322,17 @@ body {
   
     .fc-button {
       font-size: 14px; /* Ajuste no tamanho dos botões */
-      padding: 8px 12px;
+      padding: 10px 14px;
+      border-radius: 6px; /* Botões ligeiramente arredondados */
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      border: none;
+      margin-bottom: 5px;
+      transition: background-color 0.3s ease;
+    }
+  
+    .fc-button:hover {
+      background: linear-gradient(to right, #5a0db0, #1f6bdf); /* Cor mais escura ao passar o mouse */
     }
   
     .fc-daygrid-day-number {
@@ -315,6 +342,13 @@ body {
     .fc-event {
       font-size: 14px; /* Tamanho ajustado dos eventos */
       padding: 5px;
+    }
+  
+    /* Ajuste de layout para tablets */
+    .fc-header-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
   }
   
@@ -333,7 +367,16 @@ body {
   
     .fc-button {
       font-size: 16px; /* Botões maiores para desktop */
-      padding: 10px 15px;
+      padding: 12px 16px;
+      border-radius: 8px; /* Botões mais arredondados */
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+  
+    .fc-button:hover {
+      background: linear-gradient(to right, #5a0db0, #1f6bdf); /* Cor mais escura ao passar o mouse */
     }
   
     .fc-daygrid-day-number {
@@ -343,6 +386,13 @@ body {
     .fc-event {
       font-size: 16px; /* Tamanho adequado dos eventos */
       padding: 7px;
+    }
+  
+    /* Ajuste para barra de ferramentas no desktop */
+    .fc-header-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
   }
   
