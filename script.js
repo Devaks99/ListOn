@@ -277,4 +277,3 @@ function addManualTask(text, index = null) {
 
 
 
-
