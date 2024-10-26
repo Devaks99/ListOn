@@ -13,8 +13,12 @@
     <header>
         <img src="imgs/logo taskmaster 360 inicio.png" alt="Logo" class="logo">
         <h1>Tarefas+</h1>
+        <!-- Botão para alternar modo claro/escuro -->
+        <button id="theme-toggle-btn"><i class="fas fa-moon"></i></button>
       </header>
       
+  <!-- Botão de alternância de tema -->
+  <button id="theme-toggle-btn">🌞/🌜</button>
 
   <main>
     <h1>Adicione a sua tarefa</h1>
@@ -37,6 +41,14 @@
         <!-- Calendário será integrado aqui -->
       </div>
     </section>
+    
+    <!-- Seção para Exportar e Importar Tarefas -->
+    <section class="task-actions">
+      <button id="export-tasks-btn"><i class="fas fa-file-export"></i> Exportar Tarefas</button>
+      <input type="file" id="import-tasks-input" accept=".json" style="display: none;">
+      <button id="import-tasks-btn"><i class="fas fa-file-import"></i> Importar Tarefas</button>
+    </section>
+
   </main>
 
   <!-- Modal para adicionar tarefa -->
