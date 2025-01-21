@@ -1,13 +1,25 @@
-Tarefas+ 📌
- É uma aplicação intuitiva e interativa para gerenciamento de tarefas, projetada para ajudar usuários a organizar suas atividades diárias de forma prática e eficiente. Com um design moderno e funcionalidades úteis, o Tarefas+ permite adicionar, visualizar e gerenciar suas tarefas com facilidade.
+# Tarefas+
 
-✨ Principais Funcionalidades:
-✔ Adição de Tarefas – Insira novas tarefas rapidamente através de um campo intuitivo.
-✔ Lista de Tarefas – Visualize e gerencie suas tarefas em uma lista dinâmica.
-✔ Calendário Integrado – Acompanhe seus compromissos de forma visual e organizada.
-✔ Modo Claro/Escuro – Escolha entre os modos para maior conforto visual.
-✔ Exportação e Importação de Tarefas – Salve e recupere suas tarefas em formato JSON.
-✔ Modais Interativos – Gerencie tarefas e visualize detalhes com janelas modais práticas.
-✔ Mensagens de Erro – Sistema de feedback para uma experiência mais fluida.
+Tarefas+ é uma aplicação simples e funcional para gerenciar suas tarefas diárias. Ela permite adicionar, visualizar, excluir e até exportar e importar suas tarefas. O projeto também oferece integração com um calendário e a possibilidade de alternar entre o modo claro e escuro.
 
-Com o Tarefas+, organizar seu dia nunca foi tão fácil! 🔥🚀
+## Funcionalidades
+
+- **Adicionar Tarefas:** Adicione novas tarefas de maneira rápida e fácil.
+- **Visualizar e Excluir Tarefas:** Veja os detalhes de suas tarefas e exclua quando necessário.
+- **Calendário Integrado:** Visualize suas tarefas diretamente no calendário.
+- **Modo Claro/Escuro:** Alternar entre os modos claro e escuro para uma melhor experiência.
+- **Exportar/Importar Tarefas:** Exporte suas tarefas para um arquivo JSON ou importe tarefas a partir de um arquivo.
+
+## Tecnologias Utilizadas
+
+- **HTML5:** Estruturação da página.
+- **CSS3:** Estilização da interface do usuário.
+- **JavaScript:** Lógica de interação e funcionalidades dinâmicas.
+- **FullCalendar:** Biblioteca para integração de calendário.
+- **Font Awesome:** Ícones para uma interface mais rica.
+  
+## Como Usar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/tarefas-plus.git
