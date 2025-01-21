@@ -1,5 +1,5 @@
 Tarefas+ 📌
-Tarefas+ é uma aplicação intuitiva e interativa para gerenciamento de tarefas, projetada para ajudar usuários a organizar suas atividades diárias de forma prática e eficiente. Com um design moderno e funcionalidades úteis, o Tarefas+ permite adicionar, visualizar e gerenciar suas tarefas com facilidade.
+ É uma aplicação intuitiva e interativa para gerenciamento de tarefas, projetada para ajudar usuários a organizar suas atividades diárias de forma prática e eficiente. Com um design moderno e funcionalidades úteis, o Tarefas+ permite adicionar, visualizar e gerenciar suas tarefas com facilidade.
 
 ✨ Principais Funcionalidades:
 ✔ Adição de Tarefas – Insira novas tarefas rapidamente através de um campo intuitivo.
