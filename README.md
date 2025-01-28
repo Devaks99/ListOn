@@ -2,6 +2,10 @@
 
 Tarefas+ é uma aplicação simples e funcional para gerenciar suas tarefas diárias. Ela permite adicionar, visualizar, excluir e até exportar e importar suas tarefas. O projeto também oferece integração com um calendário e a possibilidade de alternar entre o modo claro e escuro.
 
+![tarefa+ 1](https://github.com/user-attachments/assets/b5e9ec06-6805-4322-bbc5-03604bf78b0b)
+![tarefa+ 2](https://github.com/user-attachments/assets/f850ddc7-ede3-46b0-be6b-3e9eaace5c1e)
+
+
 ## Funcionalidades
 
 - **Adicionar Tarefas:** Adicione novas tarefas de maneira rápida e fácil.
