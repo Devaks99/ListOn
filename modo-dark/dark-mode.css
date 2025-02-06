@@ -1,0 +1,153 @@
+/* Botão de alternância de tema */
+#theme-toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+  transition: color 0.3s;
+  position: absolute;
+  right: 25px;
+  top: 33px;
+}
+
+
+body.dark .theme-toggle-btn {
+  background-color: yellow;
+}
+
+/* ========== ESTILO PARA TEMA ESCURO ========== */
+body.dark {
+  background-color: #2d2d2d;
+  color: #f8f8f8;
+}
+
+body.dark header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border-bottom: 1px solid #444;
+}
+
+body.dark .task-input,
+body.dark .task-list,
+body.dark .calendar {
+  background-color: #373737;
+  border: 3px solid #303030;
+  border-bottom: 2px solid;
+  border-radius: 20px;
+}
+
+body.dark #add-task-btn,
+body.dark #save-task-btn,
+body.dark .fc-button {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+body.dark #add-task-btn:hover,
+body.dark #save-task-btn:hover,
+body.dark .fc-button:hover {
+  background: linear-gradient(to right, #5a0db0, #1f6bdf);
+  /* Cor mais escura ao passar o mouse */
+}
+
+body.dark .delete-btn {
+  color: #f33232;
+}
+
+body.dark .delete-btn:hover {
+  color: #fd5959;
+}
+
+body.dark .modal-content {
+  background-color: #2d2d2d;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+body.dark .error-modal-content {
+  background-color: #f5222dc7;
+  color: #fff;
+  border: 1px solid #5f5f5f;
+}
+
+body.dark #new-task,
+body.dark #modal-task-input {
+  background-color: #ffffff;
+  color: rgb(18 18 18);
+  border: 1px solid #555;
+}
+
+body.dark .fc-theme-standard {
+  background-color: #333;
+  border-color: #444;
+}
+
+body.dark .fc-col-header-cell {
+  background-color: #444;
+  border-color: #555;
+}
+
+body.dark .fc-daygrid-day {
+  background-color: #3a3a3a;
+  border-color: #444;
+}
+
+body.dark .fc-daygrid-day.fc-day-today {
+  background-color: #4a4a4a;
+}
+
+body.dark .fc-daygrid-day-number {
+  color: #e0e0e0;
+}
+
+body.dark .fc-event {
+  background-color: #5a5a5a;
+  border-color: #666;
+  color: #e0e0e0;
+}
+
+body.dark .fc-button-primary:not(:disabled).fc-button-active {
+  background-color: #666;
+}
+
+body.dark .task-checkbox {
+  accent-color: #2575fc;
+}
+
+/* ========== MEDIA QUERIES ========== */
+/* Telas pequenas (smartphones) */
+@media only screen and (max-width: 600px) {
+  body.dark .fc-button {
+    background: linear-gradient(to right, #4a4a4a, #5a5a5a);
+  }
+
+  body.dark .fc-button:hover {
+    background: linear-gradient(to right, #5a5a5a, #6a6a6a);
+  }
+
+  .fc-event {
+    font-size: 12px;
+  }
+}
+
+/* Telas médias (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body.dark .fc-button {
+    background: linear-gradient(to right, #4a4a4a, #5a5a5a);
+  }
+
+  body.dark .fc-button:hover {
+    background: linear-gradient(to right, #5a5a5a, #6a6a6a);
+  }
+}
+
+/* Telas grandes (desktops) */
+@media only screen and (min-width: 1025px) {
+  body.dark .fc-button {
+    background: linear-gradient(to right, #4a4a4a, #5a5a5a);
+  }
+
+  body.dark .fc-button:hover {
+    background: linear-gradient(to right, #5a5a5a, #6a6a6a);
+  }
+}
