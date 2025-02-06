@@ -1,9 +1,14 @@
-# Tarefas+
+![tela 2 tarefas+](https://github.com/user-attachments/assets/aecaff10-b11e-448e-a335-baa33885a3be)![tela 1 tarefas+](https://github.com/user-attachments/assets/57bd6096-dd2b-4aa3-b2a3-424be8611c77)# Tarefas+
 
 Tarefas+ é uma aplicação simples e funcional para gerenciar suas tarefas diárias. Ela permite adicionar, visualizar, excluir e até exportar e importar suas tarefas. O projeto também oferece integração com um calendário e a possibilidade de alternar entre o modo claro e escuro.
 
-![tarefa+ 1](https://github.com/user-attachments/assets/b5e9ec06-6805-4322-bbc5-03604bf78b0b)
-![tarefa+ 2](https://github.com/user-attachments/assets/f850ddc7-ede3-46b0-be6b-3e9eaace5c1e)
+##Screenshot
+
+![tela 1 tarefas+](https://github.com/user-attachments/assets/59c14be3-1ed5-44bf-a21d-2408e77ecda1)
+![tela 2 tarefas+](https://github.com/user-attachments/assets/0beaf74a-be48-48fd-838c-ad93d052541c)
+![tela dark 1 tarefas+](https://github.com/user-attachments/assets/d98dc214-00f8-4118-b788-9c7fc0036823)
+![tela dark 2 tarefas+](https://github.com/user-attachments/assets/84adeeaf-0545-4423-bd4a-260920e371e9)
+
 
 
 ## Funcionalidades
