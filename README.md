@@ -1,15 +1,12 @@
-# 📋 Tarefas+
+# 📋 ListOn
 
-Tarefas+ é um gerenciador de tarefas interativo e intuitivo que permite aos usuários adicionar, visualizar, importar e exportar tarefas. O projeto também inclui um calendário integrado para organização eficiente do tempo.
+ListOn é um gerenciador de tarefas interativo e intuitivo que permite aos usuários adicionar, visualizar, importar e exportar tarefas. O projeto também inclui um calendário integrado para organização eficiente do tempo.
 
 ---
 
 ## 📷 Capturas de Tela
 
-![tela 1 tarefas+](https://github.com/user-attachments/assets/41a3dd03-c7a9-49c6-ad0e-4aac01db24e2)
-![tela 2 tarefas+](https://github.com/user-attachments/assets/a2f57b06-2687-4214-939a-2d6a457610a4)
-![tela dark 1 tarefas+](https://github.com/user-attachments/assets/cc29e105-0b29-4f40-97f7-e330acef9ddf)
-![tela dark 2 tarefas+](https://github.com/user-attachments/assets/1716f873-2cdc-4d27-b0ce-0ac9db3fc1cd)
+
 
 
 ---
@@ -54,7 +51,7 @@ Tarefas+
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/Devaks99/tarefas-
+   git clone https://github.com/Devaks99/ListOn
    ```
 2. Abra o arquivo `index.html` em seu navegador.
 
@@ -63,7 +60,7 @@ Tarefas+
 ## 📞 Contato
 
 - Instagram: [@aks_dev](https://www.instagram.com/aks_dev/)
-- GitHub: [Devaks99](https://github.com/Devaks99/tarefas-)
+- GitHub: [Devaks99](https://github.com/Devaks99/ListOn)
 - LinkedIn: [Ana Karla](https://www.linkedin.com/in/ana-karla-209606263)
 
 ---
