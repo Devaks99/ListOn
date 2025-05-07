@@ -21,9 +21,9 @@ ListOn é um gerenciador de tarefas interativo e intuitivo que permite aos usuá
 - Integração com um calendário interativo.
 - Modais para adicionar e visualizar detalhes das tarefas.
 
-## OBS: Por enquanto a proposta do projeto é para telas Desktops e médias!
+## OBS: Por enquanto a proposta do projeto é para telas Desktop e Médias!
 
-⚠️ (Projeto em melhorias para telas mobiles!)
+⚠️ (Projeto em melhorias para telas mobiles)
 
 ---
 
