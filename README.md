@@ -6,7 +6,8 @@ ListOn é um gerenciador de tarefas interativo e intuitivo que permite aos usuá
 
 ## 📷 Capturas de Tela
 
-
+![tela1 liston](https://github.com/user-attachments/assets/de446a4f-14ba-4a4f-8841-7d37deea4108)
+![tela2 dark liston](https://github.com/user-attachments/assets/c33aa871-b83b-48a1-9bd9-3461d1eed02f)
 
 
 ---
